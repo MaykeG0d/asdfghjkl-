@@ -1,0 +1,53 @@
+.submitd{
+    background: rgb(255, 255, 255);
+    border: 10px solid black;
+    border-radius: 83px;
+    flex-flow: column;
+    width: 95%;
+    height: 250px;
+    margin-left: 0%;
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+}
+
+.mmssgg{
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 465px) {
+
+    .submitd{
+        background: rgb(255, 255, 255);
+        border: 10px solid black;
+        border-radius: 83px;
+        width: 80%;
+        height: 250px;
+        margin-right: 0%;
+        font-size: 24px;
+        margin-left: 2%;
+    }
+    .mmssgg{
+        margin-left: 25%;
+    }
+
+
+}
+
+
+@media screen and (min-width: 800px){
+
+    .mmssgg{
+        margin-left: 35%;
+    }
+
+    .submitd{
+        background: rgb(255, 255, 255);
+        border: 10px solid black;
+        border-radius: 83px;
+        width: 90%;
+        height: 250px;
+        margin-right: 0%;
+        font-size: 24px;
+        margin-left: 2%;
+    }
+}

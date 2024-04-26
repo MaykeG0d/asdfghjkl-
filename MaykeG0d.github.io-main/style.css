@@ -1,0 +1,279 @@
+*{
+    background-color: #D9D9D9;
+}
+
+.ticom{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    
+}
+
+header{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+    display: grid;
+    grid-template-columns: repeat(auto);
+}
+
+.escrever{
+    display: block;
+    margin-left: 15%;
+}
+
+.input{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    width: 99%;
+    height: 600px;
+    display: block;
+    border-radius: 83px;
+    border: 5px solid black;
+}
+
+.submit{
+    margin: 0%;
+    border-radius: 83px;
+    border: 5px solid black;
+    width: 600px;
+    height: 153px;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    
+}
+
+.improviso{
+    color: black;
+    background-color: white;
+    width: 600px;
+    height: 153px;
+    border-radius: 83px;
+    border: 5px solid black;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.improvisoo{
+    color: black;
+    background-color: white;
+    width: 55%;
+    height: 55%;
+    border: 0px solid black;
+    margin-top: 4%;
+    margin-left: 25%;
+}
+
+.imagenss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+
+.img{
+    width: 205px;
+    height: 205px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.instan{
+    background-color: whitesmoke;
+    border-radius: 65px;
+    margin-bottom: 40px;
+}
+
+.doando{
+    display: block;
+}
+
+.box-frases { 
+    max-width:150px; 
+    overflow:hidden; 
+    margin-left: 10%;  
+    background:#D9D9D9; 
+    box-shadow: 1px 0px 1.2px 0px #878787;  
+    
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .ticom{
+        font-size: 6px;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        margin-left: 2%;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+    .titulo{
+        font-size: 36px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .improvisoo{
+        color: black;
+        background-color: white;
+        width: 55%;
+        height: 55%;
+        border: 0px solid black;
+        margin-top: 8%;
+        margin-left: 25%;
+    }
+
+    .input{
+        font-family: 'Pacifico', cursive;
+        font-size: 45px;
+        width: 99%;
+        height: 600px;
+        display: block;
+        border-radius: 83px;
+        border: 5px solid black;
+        align-items: center;
+        justify-content: center;
+    }
+    .escrever{
+        display: block;
+        margin-left: 0%;
+    }
+
+    .submit{
+        margin: 0%;
+        border-radius: 10px;
+        border: 5px solid black;
+        height: 110px;
+        margin-left: 5%;
+        
+        
+    }
+    .improviso{
+        color: black;
+        background-color: white;
+        
+        height: 110px;
+        border-radius: 83px;
+        border: 5px solid black;;
+        
+    }
+
+    .imagenss{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+        margin-left: 0%;
+    }
+    
+    .instan{
+        background-color: whitesmoke;
+        border-radius: 25px;
+        margin-bottom: 40px;
+    }
+
+  }
+
+
+  /* é aqui  */
+
+  @media screen and (min-width: 800px){
+
+    .ticom{
+        font-size: 6px;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        margin-left: 2%;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+    .titulo{
+        font-size: 42px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .input{
+        font-family: 'Pacifico', cursive;
+        font-size: 45px;
+        width: 99%;
+        height: 600px;
+        display: block;
+        border-radius: 83px;
+        border: 5px solid black;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .improvisoo{
+        color: black;
+        background-color: white;
+        width: 55%;
+        height: 55%;
+        border: 0px solid black;
+        margin-top: 3%;
+        margin-left: 25%;
+    }
+    
+    .escrever{
+        display: block;
+        margin-left: 0%;
+    }
+
+    .submit{
+        margin: 0%;
+        border-radius: 10px;
+        border: 5px solid black;
+
+        height: 110px;
+        margin-left: 30%;
+        
+        
+    }
+    .improviso{
+        color: black;
+        background-color: white;
+        
+        height: 110px;
+        border-radius: 83px;
+        border: 5px solid black;
+        
+    }
+
+    .imagenss{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .img{
+        width: 150px;
+        height:150px;
+        margin-left: 0%;
+    }
+    
+    .instan{
+        background-color: whitesmoke;
+        border-radius: 25px;
+        margin-bottom: 40px;
+    }
+
+}

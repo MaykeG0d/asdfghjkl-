@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem vindo!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="paraophp.css">
+</head>
+<body>
+    <header> 
+    <div class="ticom">
+        <h1 class="titulo">Carta Aberta onde você pode</h1><h1 class="titulo">escrever qualquer coisa que</h1> <h1 class="titulo">vier na mente</h1>
+    </div>
+    </header>
+    <section class="escrever">
+        
+        <form  autocomplete="off" method="post" action="enviareiando.php">
+            <div class="input-single"> 
+                <label for="textao"></label>
+                <textarea class="input" name="textin" rows="4" cols="50" id="textao" required></textarea> <br>
+                <div class="botoes">
+                
+                <input class="titulo improviso submit enviar" type="submit" onclick="exibiralerta()">
+
+
+                
+            
+        </form>
+        <form  autocomplete="off" method="post">
+                <input class="titulo improviso submit enviar" type="submit" name="ler" value="Ler" id="btn-msg">
+                </form>
+                </div>
+                </div>
+    </section>
+
+    <section class="partemensagem">
+
+
+
+
+        <div class="mensagens" >
+
+        
+        <h2 class="mmssgg titulo"  >Mensagens...</h2>
+        
+        
+        
+        <ul class="submitd">
+        
+
+        </ul>
+        
+        </div>
+        
+        </section>
+
+    </html>
